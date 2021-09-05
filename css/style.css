@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-part{
+    background: url(../img/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 18%;
+}
+
+.flex-ish{
+    display: flex;
+    background-color: white;
+    width: 55%;
+    position: absolute;
+    bottom: 60px;
+    right: 120px;
+    height: 30%;
+}
+
+.ad-ipsum{
+    margin: 54px;
+    font-size: 20px;
+}
+
+#next-part{
+    width: 100%;
+    background-color: #D9B1B3;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stylish-write{
+    width: 58%;
+    line-height: 1.6;
+}
+
+.stylish-write::first-letter{
+    font-size: 200%;
+}
+
+.tricky-text{
+    position: relative;
+    left: 120px;
+    top: 90px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.next-text{
+    width: 36%;
+    position: relative;
+    left: 120px;
+    bottom: 150px;
+    color: white;
+}
+
+.pictures{
+    display: flex;
+    height: 675px;
+    width: 675px;
+}
+
+.pictures-noni{
+    display: flex;
+    height: 562px;
+    width: 562px;
+}
+
+.small-text{
+    height: 50vh;
+    background-color: #D9B1B3;
+}
+
+.coming{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0px 30px;
+}
+
+.website{
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif ;
+    font-weight: 100;
+}
+
+.flexx{
+    display: flex;
+    height: 100vh;
+}
+
+.straight-img{
+    padding: 60px 60px 60px 120px;
+    justify-content: center;
+}
+
+.special-vibe{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.special{
+    padding: 140px 0 0 0;
+    width: 175%;
+    font-size: 24px;
+    word-wrap: break-word;
+    word-spacing: 2.5px;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.sign-noni{
+    position: relative;
+    top: 500px;
+    right: 380px;
+}
+.signature{
+    width: 370px;
+    height: 50px;
+}
+.spring{
+    height: 100vh;
+    background-color: #D9B1B3;
+}
+
+.spring-img{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 100px;
+}
+
+.spring-se{
+    padding: 5px;
+    width: 350px;
+    height: 400px;
+}
+
+.arrow{
+    width: 70px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+
+.swag{
+    height: 80vh;
+    display: flex;
+}
+
+.products{
+    display: flex;
+    position: relative;
+    left: 150px;
+    top: 115px;
+}
+
+.shoe{
+    justify-content: space-between;
+    padding: 20px;
+    height: 420px;
+    width: 350px;
+}
